@@ -1,0 +1,73 @@
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+.logo {
+    font-family: 'Billabong', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.fb-login {
+    background-color: #385185;
+}
+
+.separator {
+    margin: 15px 0;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #00376b;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
